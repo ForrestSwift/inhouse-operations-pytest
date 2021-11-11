@@ -8,6 +8,10 @@
 
 
 def partition(arr, low, high):
+  """
+  :param arr: an array to be sorted
+  :returns: nothing
+  """
   i = (low-1)		 # index of smaller element
   pivot = arr[high]	 # pivot
 
