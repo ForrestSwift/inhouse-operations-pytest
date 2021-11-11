@@ -1,5 +1,9 @@
 # Insertion sort
 def insertionSort(arr):
+  """
+  :param arr: an array to be sorted
+  :returns: nothing
+  """
   # Traverse through 1 to len(arr)
   for i in range(1, len(arr)):
 
