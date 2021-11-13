@@ -27,4 +27,4 @@ jobs:
       - uses: actions/setup-python@v2
       - uses: psf/black@stable
         with:
-          args: "source --check"
+          black_args: ". --check"
