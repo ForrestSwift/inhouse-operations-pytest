@@ -16,5 +16,3 @@ jobs:
           black_args: ". --check --diff"
       - name: Lint with flake8
         uses: py-actions/flake8@v1
-        with:
-          args: "--show-source --statistics"
