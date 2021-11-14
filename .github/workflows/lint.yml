@@ -13,7 +13,7 @@ jobs:
       - name: Lint with Black
         uses: psf/black@stable
           with:
-            src: '.'
+            src: ./
       - name: Lint with flake8
         uses: py-actions/flake8@v1
 
