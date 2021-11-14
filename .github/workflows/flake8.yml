@@ -15,6 +15,3 @@ jobs:
           python-version: "3.8"
       - name: flake8 Lint
         uses: py-actions/flake8@v1
-        with:
-          exclude: ".git", ".github", "README.md"
-          max-complexity: 10
