@@ -17,4 +17,4 @@ jobs:
       - name: Lint with flake8
         uses: py-actions/flake8@v1
         with:
-          args: ". --show-source --statistics"
+          args: "--show-source --statistics"
