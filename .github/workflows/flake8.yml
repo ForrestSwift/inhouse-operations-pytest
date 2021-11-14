@@ -3,12 +3,11 @@ name: Flake8
 on: [push, pull_request]
 
 jobs:
-  flake8_py3:
+  flake8:
     runs-on: ubuntu-latest
     steps:
+      uses: actions/checkout@v2
       uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
 
       - name: Install Dependencies
         run: |
