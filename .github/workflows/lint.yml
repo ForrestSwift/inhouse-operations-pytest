@@ -1,0 +1,18 @@
+name: Lint
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v2
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+      - name: Lint with Black
+        uses: psf/black@stable
+        with:
+          black_args: ". --check --diff"
+      - name: Lint with flake8
+        uses: py-actions/flake8@v1
