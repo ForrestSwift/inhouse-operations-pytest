@@ -1,27 +1,27 @@
 # Insertion sort
 def insertionSort(arr):
-  """
-  :param arr: an array to be sorted
-  :returns: nothing
-  """
-  # Traverse through 1 to len(arr)
-  for i in range(1, len(arr)):
+    """
+    :param arr: an array to be sorted
+    :returns: nothing
+    """
+    # Traverse through 1 to len(arr)
+    for i in range(1, len(arr)):
 
-    key = arr[i]
+        key = arr[i]
 
-    # Move elements of arr[0..i-1], that are
-    # greater than key, to one position ahead
-    # of their current position
-    j = i-1
-    while j >=0 and key < arr[j] :
-        arr[j+1] = arr[j]
-        j -= 1
-    arr[j+1] = key
+        # Move elements of arr[0..i-1], that are
+        # greater than key, to one position ahead
+        # of their current position
+        j = i - 1
+        while j >= 0 and key < arr[j]:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j+1] = key
 
 
 # For testing
 arr = [12, 11, 13, 5, 6]
 insertionSort(arr)
-print ("Sorted array is:")
+print("Sorted array is:")
 for i in range(len(arr)):
-  print ("%d" %arr[i])
+    print("%d" % arr[i])
