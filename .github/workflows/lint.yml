@@ -12,6 +12,8 @@ jobs:
         uses: actions/setup-python@v2
       - name: Lint with Black
         uses: psf/black@stable
+          with: 
+            src: .
       - name: Lint with flake8
         uses: py-actions/flake8@v1
 
