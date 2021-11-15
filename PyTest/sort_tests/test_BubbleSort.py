@@ -1,9 +1,9 @@
 # Bubble Sort
 def bubbleSort(arr):
     """
-  :param arr: an array to be sorted
-  :returns: nothing
-  """
+    :param arr: an array to be sorted
+    :returns: nothing
+    """
     n = len(arr)
     # Traverse through all array elements
     for i in range(n - 1):
