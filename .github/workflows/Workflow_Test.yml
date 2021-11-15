@@ -1,0 +1,17 @@
+name: Workflow_Test
+
+
+on: 
+  pull_request:
+  push:
+    
+    
+jobs:
+
+  runs-on: ubuntu-latest
+  -uses: inhouse-operations-pytest/.github/workflows/liny.yml
+  -uses: inhouse-operations-pytest/.github/pytest/test_BubbleSort.py
+  -uses: inhouse-operations-pytest/.github/pytest/test_InsertionSort.py
+  -uses: inhouse-operations-pytest/.github/pytest/test_QuickSort.py
+
+
