@@ -3,11 +3,12 @@ name: Workflow_Test
 
 on: [pull_request, push]
 
-matrix: 
 
 jobs:
-
-  runs-on: [ubuntu-latest, linux, windows-latest]
-  -uses: inhouse-operations-pytest/.github/workflows/liny.yml
+  test:
+    runs-on: ${{ matrix.os }}
+    matrix:
+      os: [ubuntu-latest, linux, windows-latest]
+      python-version: ['3.6','3.9']
 
 
