@@ -2,11 +2,12 @@ name: Workflow_Test
 
 
 on: [pull_request, push]
-    
-    
+
+matrix: 
+
 jobs:
 
-  runs-on: ubuntu-latest
+  runs-on: [ubuntu-latest, linux, windows-latest]
   -uses: inhouse-operations-pytest/.github/workflows/liny.yml
 
 
