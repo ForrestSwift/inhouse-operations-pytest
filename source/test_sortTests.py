@@ -11,6 +11,7 @@ from BubbleSort import bubbleSort
 from InsertionSort import insertionSort
 from QuickSort import quickSort
 
+
 # PyTest to check if bubble sort works properly
 def test_bubbleSort():
     # sets up array to be sorted
@@ -22,6 +23,7 @@ def test_bubbleSort():
     # checks if they are equal
     assert arr == testarr
 
+
 # PyTest to check if insertion sort works properly
 def test_insertionSort():
     # sets up array to be sorted
@@ -32,6 +34,7 @@ def test_insertionSort():
     testarr = [1, 2, 3, 4, 5, 6, 7, 8]
     # checks if they are equal
     assert arr == testarr
+
 
 # PyTest to check if quick sort works properly
 def test_quickSort():
