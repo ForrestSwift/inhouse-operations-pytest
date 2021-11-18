@@ -11,7 +11,6 @@ from BubbleSort import bubbleSort
 from InsertionSort import insertionSort
 from QuickSort import quickSort
 
-
 # PyTest to check if bubble sort works properly
 def test_bubbleSort():
     # sets up array to be sorted
