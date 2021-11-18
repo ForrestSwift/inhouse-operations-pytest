@@ -1,6 +1,6 @@
 # this is the config file for FLAKE8
 [flake8]
-ignore = D203
+ignore = D203, E302
 exclude =
     # No need to traverse our git directory
     .git,
