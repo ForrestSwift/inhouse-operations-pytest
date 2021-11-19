@@ -17,11 +17,4 @@ def insertionSort(arr):
             arr[j + 1] = arr[j]
             j -= 1
         arr[j + 1] = key
-
-
-# For testing
-arr = [12, 11, 13, 5, 6]
-insertionSort(arr)
-print("Sorted array is:")
-for i in range(len(arr)):
-    print("%d" % arr[i])
+    return arr
