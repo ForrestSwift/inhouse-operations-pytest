@@ -1,11 +1,6 @@
 name: Workflow_Test
 
-
 on: [pull_request, push]
-
-
-
-
 
 jobs:
   test:
