@@ -24,7 +24,7 @@ This module sorts lists of integers...
 def bubble(arr):
     """
     :param arr: an array to be sorted
-    :returns: nothing
+    :returns: sorted array
     """
     n = len(arr)
     # Traverse through all array elements
@@ -44,7 +44,7 @@ def bubble(arr):
 def partition(arr, low, high):
     """
     :param arr: an array to be sorted
-    :returns: nothing
+    :returns: index at beginning of partition
     """
     i = low - 1  # index of smaller element
     pivot = arr[high]  # pivot
@@ -63,15 +63,11 @@ def partition(arr, low, high):
     return i + 1
 
 
-# The main function that implements QuickSort
-# arr[] --> Array to be sorted,
-# low --> Starting index,
-# high --> Ending index
-
-# Function to do Quick sort
-
-
 def quick(arr, low, high):
+    """
+    :param arr: an array to be sorted
+    :returns: sorted array
+    """
     if len(arr) == 1:
         return arr
     if low < high:
@@ -90,7 +86,7 @@ def quick(arr, low, high):
 def insertion(arr):
     """
     :param arr: an array to be sorted
-    :returns: nothing
+    :returns: sorted array
     """
     # Traverse through 1 to len(arr)
     for i in range(1, len(arr)):
