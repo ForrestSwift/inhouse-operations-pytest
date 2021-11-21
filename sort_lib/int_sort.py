@@ -63,7 +63,7 @@ def partition(arr, low, high):
     return i + 1
 
 
-def quick(arr, low, high):
+def quick(arr, low = 0, high = len(arr)-1):
     """
     :param arr: an array to be sorted
     :returns: sorted array
