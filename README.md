@@ -3,7 +3,7 @@ A demonstration of devops and sorting algorithms
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ForrestSwift/inhouse-operations-pytest)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ForrestSwift/inhouse-operations-pytest)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/ForrestSwift/inhouse-operations-pytest)
-![Sort20%Lib](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/main.yml/badge.svg)
+
 
 ### Overview
 This repository holds three different sorting algorithms for integer arrays.
@@ -29,8 +29,8 @@ the int_sort module contains the following sorts
 ### Workflow
 The repository is set up to lint, test and build on push and pull requests. This means that any changes made must pass Black and Flake8 linters as well as a couple different unit tests (if sorting algorithms are altered or new ones are added)
 *Note: If you are pushing from the command line, a pre-commit check is run and your code will be automatically sent through Black, this requires you to add your file to the commit again, but it will allow you to forgo the headache of watching failed test in the git-hub actions tab*
-- Linting with Flake8 and Black (Ubuntu-latest)
-- Unit Tests with Pytest (verified on Windows-latest, MacOs-latest, Ubuntu-Latest)
+- Linting with Flake8 and Black (Ubuntu-latest) ![Linting](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/main.yml/badge.svg)
+- Unit Tests with Pytest (verified on Windows-latest, MacOs-latest, Ubuntu-Latest) ![Testing](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/main.yml/badge.svg)
 - Build (verified on Windows-latest, MacOs-latest, Ubuntu-Latest) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ForrestSwift/inhouse-operations-pytest/Sort%20Lib)
 
 
