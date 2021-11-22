@@ -1,15 +1,14 @@
 name: Build
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_run:
+    workflows: ["Test"]
+    types:
+      - completed
       
 jobs:
   packaging:
     # only run the packaging if testing passed
-    needs: test
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
