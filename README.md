@@ -32,5 +32,5 @@ The repository is set up to lint, test and build on push and pull requests. This
 *Note: If you are pushing from the command line, a pre-commit check is run and your code will be automatically sent through Black, this requires you to add your file to the commit again, but it will allow you to forgo the headache of watching failed test in the git-hub actions tab*
 - Linting with Flake8 and Black (Ubuntu-latest) ![Lint](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/lint.yml/badge.svg)
 - Unit Tests with Pytest (verified on Windows-latest, MacOs-latest, Ubuntu-Latest) ![Test](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/test.yml/badge.svg)
-- Build (verified on Windows-latest, MacOs-latest, Ubuntu-Latest) ![Test](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/build.yml/badge.svg)
+- Build (verified on Windows-latest, MacOs-latest, Ubuntu-Latest) ![Build](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/build.yml/badge.svg)
 
