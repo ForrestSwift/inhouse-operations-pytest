@@ -36,7 +36,7 @@ def test_insertion():
 
 
 # PyTest to check if quick sort works properly
-def test_quickSort():
+def test_quick():
     # sets up array to be sorted
     arr = [7, 5, 1, 3, 4, 8, 2, 6]
     # sorts array
