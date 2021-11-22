@@ -91,7 +91,7 @@ def quick(arr):
     high = len(arr)
     low = 0
     return quicksort(arr, low, high)
-    
+
 
 def insertion(arr):
     """
