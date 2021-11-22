@@ -40,8 +40,7 @@ def test_quickSort():
     # sets up array to be sorted
     arr = [7, 5, 1, 3, 4, 8, 2, 6]
     # sorts array
-    n = len(arr)
-    quick(arr, 0, n - 1)
+    quick(arr)
     # correctly sorted array
     testarr = [1, 2, 3, 4, 5, 6, 7, 8]
     # checks if they are equal

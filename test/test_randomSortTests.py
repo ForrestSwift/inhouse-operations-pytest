@@ -25,7 +25,7 @@ def test_insertion():
 def test_quick():
     n = random.randint(100)
     i = random.randint(2147483646, size=(n))
-    a = quick(i, 0, len(i) - 1)
+    a = quick(i)
     for k in range(len(i) - 1):
         print(f"Given: {i}")
         assert a[k] <= a[k + 1]
