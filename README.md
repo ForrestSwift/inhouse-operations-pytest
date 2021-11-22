@@ -33,8 +33,9 @@ the int_sort module contains the following sorts
 
 ### Workflow
 
-The repository is set up to lint, test and build on push and pull requests. This means that any changes made must pass Black and Flake8 linters as well as a couple different unit tests (if sorting algorithms are altered or new ones are added) 
-Note: If you are pushing from the command line, a pre-commit check is run and your code will be automatically sent through Black, this requires you to add your file to the commit again, but it will allow you to forgo the headache of watching failed test in the git-hub actions tab
+- The repository is set up to lint, test and build on push and pull requests. 
+- Changes made must pass Black and Flake8 linters as well as a couple different unit tests (if sorting algorithms are altered or new ones are added) 
+- If you are pushing from the command line, a pre-commit check is run and your code will be automatically sent through Black *(This requires you to add your file to the commit again, but it will allow you to forgo the headache of watching failed test in the git-hub actions tab)*
 ---
 ![Lint](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/lint.yml/badge.svg) Linting with Flake8 and Black (Ubuntu-latest)
 
