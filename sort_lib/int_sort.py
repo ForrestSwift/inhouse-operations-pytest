@@ -83,7 +83,7 @@ def quicksort(arr, low, high):
     return arr
 
 
-def quick(arr)
+def quick(arr):
     """
     :param arr: an array to be sorted
     :returns: sorted array
