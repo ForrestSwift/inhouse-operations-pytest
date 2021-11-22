@@ -88,7 +88,7 @@ def quick(arr):
     :param arr: an array to be sorted
     :returns: sorted array
     """
-    high = len(arr)
+    high = len(arr) - 1
     low = 0
     return quicksort(arr, low, high)
 
