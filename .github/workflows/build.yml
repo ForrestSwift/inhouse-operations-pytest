@@ -1,4 +1,4 @@
-name: Build
+name: sort_lib
 
 on:
   workflow_run:
