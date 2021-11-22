@@ -63,7 +63,7 @@ def partition(arr, low, high):
     return i + 1
 
 
-def quick(arr, low=0, high=len(arr) - 1):
+def quicksort(arr, low, high):
     """
     :param arr: an array to be sorted
     :returns: sorted array
@@ -78,10 +78,20 @@ def quick(arr, low=0, high=len(arr) - 1):
 
         # Separately sort elements before
         # partition and after partition
-        quick(arr, low, pi - 1)
-        quick(arr, pi + 1, high)
+        quicksort(arr, low, pi - 1)
+        quicksort(arr, pi + 1, high)
     return arr
 
+
+def quick(arr)
+    """
+    :param arr: an array to be sorted
+    :returns: sorted array
+    """
+    high = len(arr)
+    low = 0
+    return quicksort(arr, low, high)
+    
 
 def insertion(arr):
     """
