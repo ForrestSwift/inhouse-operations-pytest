@@ -7,8 +7,19 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ForrestSwift/inhouse-operations-pytest/Test?label=Build)
 
 ### Overview
-This repository holds three different sorting algorithms for integer arrays.
-- bubble, quick and insertion sorts
+This repository is for the In House Operations team. The repository is meant to  lint, test and build on push and pull requests..
+These are used for sytle checking and linting. These tools help devlopment groups keep their work uniform and also allows for better testing. This repository also includes 
+pytest for bubble sort, selection sort and quick sort. Next I will outlinewhat these tools are.
+
+Python Black: Python black is used for style checking. It is considered a safe way to format your code. Python black will format the code without comproimsing it.
+This is one of its biggest advantages. Python black is also easily intergrated making it easy to use no matter what IDE you prefer. Black reports formatting errors and also 
+automatically fixes them. Black is usually used for formatting code on large group projects becuase in most cases every progrrammer has their personal style which can 
+cause confusion on larger projects. Black differs from Flake8 becuase it doesnt force the devlopers to fix their own formatting errors.
+
+Flake8: Flake8 is used for for linting. Linting is when you check the sytanx of your code and make sure it follows the syntax of the language.  Flake8 allows for devlopers to 
+check their formatting and see what they must do to change it. This is mainly used to help devlopers who work in teams be more uniform. It also helps devlopers catch errors 
+before it is to late. Flake8 checks agains the offical python syntax. The main advantage of using Flake8 is that it has a low percentage of false positives. Flake8 also 
+pulls from other linting tools like Pep8, Pychecker, and Pyflakes.
 **Build:** The build package is located in the actions tab and can be downloaded from there
 
 ### Installation
