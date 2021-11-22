@@ -1,10 +1,10 @@
-# sort_lib
-## Python Module
+# InHouse-Operations-Pytest
+---
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ForrestSwift/inhouse-operations-pytest)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ForrestSwift/inhouse-operations-pytest)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/ForrestSwift/inhouse-operations-pytest)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ForrestSwift/inhouse-operations-pytest/Test?label=Test)
-
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ForrestSwift/inhouse-operations-pytest/Test?label=Tests)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ForrestSwift/inhouse-operations-pytest/Test?label=Build)
 
 ### Overview
 This repository holds three different sorting algorithms for integer arrays.
@@ -28,10 +28,12 @@ the int_sort module contains the following sorts
 - `bubble` bubble sort'
 
 ### Workflow
-The repository is set up to lint, test and build on push and pull requests. This means that any changes made must pass Black and Flake8 linters as well as a couple different unit tests (if sorting algorithms are altered or new ones are added)
-*Note: If you are pushing from the command line, a pre-commit check is run and your code will be automatically sent through Black, this requires you to add your file to the commit again, but it will allow you to forgo the headache of watching failed test in the git-hub actions tab*
-- Linting with Flake8 and Black (Ubuntu-latest)
-- Unit Tests with Pytest (verified on Windows-latest, MacOs-latest, Ubuntu-Latest)
-- Build (verified on Windows-latest, MacOs-latest, Ubuntu-Latest) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ForrestSwift/inhouse-operations-pytest/Sort%20Lib)
+- The repository is set up to lint, test and build on push and pull requests. 
+- Changes made must pass Black and Flake8 linters as well as a couple different unit tests (if sorting algorithms are altered or new ones are added)
+- If you are pushing from the command line, a pre-commit check is run and your code will be automatically sent through Black *(this requires you to add your file to the commit again, but it will allow you to forgo the headache of watching failed test in the git-hub actions tab*
+---
+![Lint](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/lint.yml/badge.svg) Linting with Flake8 and Black (Ubuntu-latest)
+![Test](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/test.yml/badge.svg) Unit Tests with Pytest (verified on Windows-latest, MacOs-latest, Ubuntu-Latest)
+![Build](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/build.yml/badge.svg) Build (verified on Windows-latest, MacOs-latest, Ubuntu-Latest)
 
 
