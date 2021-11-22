@@ -1,9 +1,9 @@
-# sort_lib
-## Python Module
+# InHouse-Operations-Pytest
+A demonstration of devops and sorting algorithms
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ForrestSwift/inhouse-operations-pytest)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ForrestSwift/inhouse-operations-pytest)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/ForrestSwift/inhouse-operations-pytest)
-
+![Sort20%Lib](https://github.com/ForrestSwift/inhouse-operations-pytest/actions/workflows/main.yml/badge.svg)
 
 ### Overview
 This repository holds three different sorting algorithms for integer arrays.
