@@ -7,9 +7,8 @@ on:
       - completed
       
 jobs:
-  test:
+  testing:
     # only run the code testing if linting passed
-    needs: lint
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
