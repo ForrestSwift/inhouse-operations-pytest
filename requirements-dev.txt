@@ -6,3 +6,4 @@ black
 wheel
 packaging
 numpy
+pre-commit
